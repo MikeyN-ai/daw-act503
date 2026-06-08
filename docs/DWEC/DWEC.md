@@ -6,7 +6,7 @@ L'ús de React ens ha permés expandir les funcionalitats del projecte, implemen
 
 A més, hem implementat la gestió de comandes de la tenda fake, com es veu a la imatge. La gestió de localitzacions d'on la tenda pot rebre comandes, la colecta i lectura d'estadístiques sobre els usuaris del comparador.
 
-!!! info "Funcionalitats implementades amb React"
+# Funcionalitats implementades amb React
     - DOM Virtual de React
     - Sessió d'usuari persistent via Context (frontend i backend)
     - Configuració del comparador (font de dades, productes/clients, etc.)
@@ -26,6 +26,12 @@ La secció d'estadístiques permet fer seguiment de les sessions per comparador,
 
 ![Panell d'estadístiques](estadistiques.jpg)
 
+### Detall d'una comanda
+
+Cada comanda mostra la informació del client, data, forma de pagament, enviament i total, juntament amb el detall de cada producte inclòs.
+
+![Detall d'una comanda](comanda-detall.jpg)
+
 ---
 
 ## III.2. Configuració de l'API amb APIWOO
@@ -35,8 +41,4 @@ Com a part de la gestió de la configuració hem implementat una API en PHP que 
 !!! warning "Problema de connectivitat a classe"
     Vam tindre problemes per connectar-nos a la base de dades a classe degut al router de Conselleria que no ens va permetre accedir a la seua IP, fet que ens va ralentitzar el desenvolupament.
 
-### Detall d'una comanda
 
-Cada comanda mostra la informació del client, data, forma de pagament, enviament i total, juntament amb el detall de cada producte inclòs.
-
-![Detall d'una comanda](comanda-detall.jpg)
