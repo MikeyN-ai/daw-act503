@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: Documentació SPRINT 5
+
+theme:
+  name: material
+nav:
+  - I. Introducció: index.md
+  - VI. Webgrafia: Webgrafia/Webgrafia.md
