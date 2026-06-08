@@ -38,7 +38,6 @@ Cada comanda mostra la informació del client, data, forma de pagament, enviamen
 
 Com a part de la gestió de la configuració hem implementat una API en PHP que es connecta a la API REST d'una instància de WooCommerce per sincronitzar dades amb un JSON local, fet que hem aconseguit realitzant un **mapeig** dels camps retornats per WooCommerce als camps de la BD nostra existent. Aquesta funcionalitat es gestiona des del BO implementat amb React.
 
-!!! warning "Problema de connectivitat a classe"
-    Vam tindre problemes per connectar-nos a la base de dades a classe degut al router de Conselleria que no ens va permetre accedir a la seua IP, fet que ens va ralentitzar el desenvolupament.
+Vam tindre problemes per connectar-nos a la base de dades a classe degut al router de Conselleria que no ens va permetre accedir a la seua IP, fet que ens va ralentitzar el desenvolupament.
 
 
