@@ -2,5 +2,5 @@ site_name: Documentació Sprint 5
 theme:
   name: material
 nav:
-  - Introducció: index.md
-  - DWEC: DWEC/DWEC.md
+  - I. Introducció: index.md
+  - III. DWEC: DWEC/DWEC.md
