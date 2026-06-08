@@ -1,0 +1,28 @@
+name: Validació de la documentació
+on:
+push:
+branches:
+- main
+- develop
+pull_request:
+branches:
+- main
+- develop
+permissions:
+contents: write
+jobs:
+build-docs:
+runs-on: ubuntu-latest
+steps:
+- name: Clonar el repositori
+uses: actions/checkout@v4
+- name: Configurar Python
+uses: actions/setup-python@v5
+with:
+python-version: '3.12'
+name: Instal·lar dependències
+run: |
+pip install mkdocs mkdocs-material
+name: Validar construcció de la documentació
+run: |
+mkdocs build --strict
