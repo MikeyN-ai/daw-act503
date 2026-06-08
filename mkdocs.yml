@@ -4,4 +4,7 @@ theme:
   name: material
 nav:
   - I. Introducció: index.md
+  - II. DIW: DIW/DIW.md
+  - III. DWEC: DWEC/DWEC.md
   - IV. Altres: Altres/Altres.md
+  - VI. Webgrafia: Webgrafia/Webgrafia.md
