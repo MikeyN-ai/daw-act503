@@ -1,17 +1,2 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+# Introducció
+L'objectiu principal d'aquest Sprint 5 ha sigut completar les aplicacions Selectio i Nexapp. Durant aquest període hem treballat en la maquetació final de les interfícies, la integració de funcionalitats i la millora de l'experiència d'usuari. Hem aprofundit en l'ús de tecnologies com Bootstrap, React i APIs externes, aplicant coneixements que ens han permés construir aplicacions més completes. 
