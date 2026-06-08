@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: Documentació Sprint 5
+theme:
+  name: material
+nav:
+  - Introducció: index.md
+  - DWEC: DWEC/DWEC.md
