@@ -26,3 +26,6 @@ jobs:
       - name: Validar construcció de la documentació
         run: |
           mkdocs build --strict
+      - name: Publicar a GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        run: mkdocs gh-deploy --force
